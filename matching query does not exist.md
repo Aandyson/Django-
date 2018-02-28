@@ -9,7 +9,7 @@ matching query does not exist.
 
 ### 错误原因 ###
 
-一般是由于get引起的,get找不到东西，所以报错
+使用get方法时，当找不到匹配的query时，就会报DoesNotExist exception.
 
 ### 解决方案 ###
 
